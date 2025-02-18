@@ -23,7 +23,7 @@ public class LdapConfig {
   private String ldapPassword;
 
   protected String[] getBasePackages() {
-    return new String[] { "com.example.identitymanager" };
+    return new String[] { "com.example" };
   }
 
   @Bean
